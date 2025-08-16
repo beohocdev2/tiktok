@@ -1,0 +1,16 @@
+{
+  "name": "tiktok-dr",
+  "version": "1.0.0",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "dev": "electron .",
+    "playwright": "npx playwright install chromium"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7"
+  },
+  "dependencies": {
+    "playwright": "^1.46.0"
+  }
+}
